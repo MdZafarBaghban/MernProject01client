@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+body{
+  /* background-color: wheat; */
+  background: rgb(34,193,195);
+  background: linear-gradient(111deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +40,212 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/*  Signup page   Start*/
+
+.signup{
+  margin: 0;
+  padding: 0;
+  background: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY5ovgwP-6TlnT8XtZBmpp1OiseC_siKpmdA&usqp=CAU);
+  background-size: 280%;
+  background-position: -400px 0px ;
+}
+div.main{
+  width: 400px;
+  margin: 100px auto 0px auto;
+  margin-top: auto;
+  padding-top: 5px;
+}
+
+.register h2{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+div.register{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+form#register-form{
+  margin: 40px;
+}
+
+label#register-form{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.inp{
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0,0,0, 0.3);
+}
+
+input#submit{
+  width: 200px;
+  padding: 7px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(255, 100, 0, 0.8);
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow:  1px 1px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+label,span,h2{
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btns{
+  float: right;
+  border-radius: 7px;
+  color: aqua;
+  background-color: rgb(65, 113, 218);
+}
+
+
+/*  Signup page Ends */
+
+
+
+
+
+
+.bgs {
+  /* background-color: wheat; */
+  /* background: rgb(2,0,36);
+  background: linear-gradient(111deg, rgba(2,0,36,1) 0%, rgba(34,185,17,0) 1%, rgba(166,21,150,1) 2%, rgba(186,17,152,1) 30%, rgba(39,12,226,1) 95%, rgba(0,212,255,1) 100%); */
+  height: 500px;
+}
+
+
+.nav{
+  max-height: 60px;
+}
+
+.resize{
+  height: 100px;
+  width: 100px;
+}
+
+.clr{
+  /* background-color: #0eca92; */
+  background: rgb(2,0,36);
+  background: linear-gradient(281deg, rgba(2,0,36,1) 0%, rgba(166,21,150,1) 28%, rgba(39,12,226,1) 87%, rgba(0,212,255,1) 100%);
+}
+
+/* .txt{
+  width: 700px;
+} */
+
+.home{
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+}
+
+
+#top{
+  display: flex;
+  justify-content: center;
+}
+
+.abt{
+  height: 900px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+/* 404 Error Page Not Found style */
+
+#notfound{
+  position: relative;
+  height: 100vh;
+}
+#notfound .notfound{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound{
+  max-width: 920px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.notfound .notfound-404 h1{
+  font-family: "maven Pro", sans-serif;
+  color: #ececec;
+  font-weight: 900;
+  font-size: 276px;
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound p{
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.notfound a {
+  font-family: "Maven pro", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #189cf0;
+  display: inline-block;
+  padding: 16px 38px;
+  border: 2px solid trasparent;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 400;
+  -webkit-transition: 0.2s all;
+}
+
+
+
+
